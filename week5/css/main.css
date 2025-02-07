@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(217, 217, 217);
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1{
+    color:  #1a5794;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+}  
+h1, h2{
+    text-decoration: underline;
+color: green;
+} 
+/* Class selector */
+.btn{
+background-color: #1a5794;
+color: aliceblue;
+padding: 16px 20px;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+border: none;
+
+/*outline */
+box-shadow: 2px 2px 7px 3px #d68f8f;
+
+
+} 
+.btn:hover{
+background-color: aliceblue;
+color: #083e73;
+
+
+/* id selector*/
+#intoPara{
+    font-style: italic;
+}
+
+article h2{
+    color: red;
+}  
+
+h2{
+    color: rgb(193, 127, 3);
+}  
+
+/* li{ 
+color rgb(93, 0, 225)
+/* adding child number, adding odd or even, 2n+1 */
+ul li:nth-child(2n+1){
+    color: red;
+}
+
+.secondClass{
+    border: 2px solid #f40707;
+}
+
+/* form styles */
+
+form{
+    background-color: aliceblue;
+    max-width: 600px;
+/*margin vs padding */
+padding: 20px;
+margin: 20px; 
+border-radius: 20px;
+
+}
+
+input, textarea {
+    display: block;
+    margin: 5px 0;
+    padding: 5px;
+    font-size: 16px;
+    width: 100%;
+    
+}
