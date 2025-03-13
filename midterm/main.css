@@ -1,0 +1,151 @@
+body {
+    font-family: "stevie-sans", sans-serif;
+    margin: auto;
+    background: #aad4cf;
+    max-width: 100%;
+}
+
+
+header {
+    position: relative;
+    color: white;
+}
+
+.header-content img {
+    width: 104%;
+    height: 320px;
+    object-fit: cover;
+}
+
+.header-content h1 {
+    position: absolute;
+    top: 48%;
+    left: 33%;
+    font-size: 3rem;
+}
+
+
+nav {
+    background-color: #def9f6;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    font-size: 1.5rem;
+    width: 100%;
+    top: 80%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+nav ul li {
+    flex: 1;
+    text-align: center;
+}
+
+nav ul li a {
+    background: #def9f6;
+    color: #811279;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    display: block;
+    border-right: 1px solid #ccc;
+}
+
+nav ul li:last-child a {
+    border-right: none;
+}
+
+nav ul li a:hover {
+    background-color: #f0f0f0;
+}
+
+
+main {
+    margin: auto;
+    background: #def9f6;
+    padding: 20px;
+}
+
+.intro .content {
+    align-items: center;
+}
+
+.intro img {
+    width: 150px;
+    margin-right: 20px;
+    float: left;
+}
+
+.facts ul {
+    padding-left: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(6, 28, 138);
+    padding: 20px;
+}
+
+.contact label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.contact input,
+.contact textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 98%;
+    resize: none;
+}
+
+fieldset {
+    border: none;
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+fieldset label {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+button {
+    width: 80px;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #def9f6;
+    color: rgb(49, 6, 142);
+    border: 1px solid rgb(242, 121, 121);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #831289;
+    padding: 20px 20px;
+    border: 2px solid rgb(93, 43, 95);
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    text-align: right;
+    padding: 20px 40px;
+    background: #def9f6;
+    color: rgb(106, 34, 92);
+    margin-bottom: 20px;
+}
