@@ -1,3 +1,29 @@
 body{
     background-color: beige;
 }
+
+.container{
+    display:grid;
+    /* grid-template-columns: 1fr 200px; */
+    /* grid-template-rows: 200px 200px 200px 200px;*/
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: 200px 200px;
+    /* controlling the thickness of row lines */
+    /* row-gap: 1rem;
+   
+   controlling the thickness of colum lines 
+    column-gap: 2rem; */
+    
+    /* controlling the thickness of row and column lines with same value */
+    /* gap: 1rem; */
+    
+    /* controlling the thickness of row and column lines with different value */
+    /* row-gap columngap */
+    gap: 1rem 2rem;
+
+}
+
+.box{
+    background-color: aquamarine;
+    padding: 2rem;
+}
