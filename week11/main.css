@@ -5,8 +5,11 @@ body {
 .container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 200px);
     gap: 1rem;
+   
+   align-items: start;
+   justify-items: end;
     /* grid-template-columns: 1fr 200px; */
     /* grid-template-rows: 200px 200px 200px 200px;*/
     /* grid-template-columns: repeat(4, 200px);
@@ -31,9 +34,17 @@ body {
     padding: 2rem;
 }
 
+.box2{
+    align-self: center;
+    justify-self: start;
+}
+
+
+
 @media screen and (min-width: 600px) {
     .container {
         grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 200px);
     }
 
     /* grid item positioning by line */
