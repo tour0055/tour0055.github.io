@@ -6,6 +6,7 @@
     <title>Mamadou Toure</title>
 </head>
 <body>
+
     <!-- Navigation Bar -->
     <header>
         <nav>
@@ -29,7 +30,7 @@
     <!-- Hero Section -->
     <section id="home" class="mamadou-toure-hero">
         <img src="./images/main-banner.jpg" alt="Modern office space with leather sofas and desks" />
-        <h1>Welcome to Mamadou Toure Pages</h1>
+        <h1>Welcome to Mamadou Toure</h1>
         <p>We design unique digital experiences for impactful branding.</p>
         <button>Work With Us</button>
     </section>
@@ -69,7 +70,9 @@
 
     <!-- Mission Section -->
     <section id="vision">
-        <h2>Our Mission</h2>
+        <h2>Our vision</h2>
+        <img src="./images/vision.jpg">
+        
         <p>We merge creativity with technology to craft memorable brand experiences.</p>
         <button>Learn More</button>
     </section>
@@ -93,58 +96,54 @@
     <section id="contact">
         <h2>Contact Us</h2>
 
-        <!-- Contact Form -->
-        <div class="contact-form">
-            <h3>Send us a message</h3>
-            <form>
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" required>
+        <!-- Send us a message -->
+        <h3>Send us a message</h3>
+        <form>
+            <label for="name">Full Name</label><br>
+            <input type="text" id="name" name="name"><br><br>
 
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email"><br><br>
 
-                <label for="message">Message</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
+            <label for="message">Message</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
 
-                <button type="submit">Send</button>
-            </form>
-        </div>
+            <button type="submit">Send</button>
+        </form>
+
+        <!-- Our Office -->
+        <h3>Our Office</h3>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.843048674094!2d144.95592331532106!3d-37.817209979751554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf0727e6e9c4f9c71!2sSouthern%20Cross%20Station!5e0!3m2!1sen!2sau!4v1618881583477!5m2!1sen!2sau"
+            width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
 
         <!-- Hours of Operation -->
-        <div class="hours">
-            <h3>Hours of operation</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Days</th>
-                        <th>Hours</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Monday - Friday</td>
-                        <td>9 AM - 5 PM</td>
-                    </tr>
-                    <tr>
-                        <td>Saturday - Sunday</td>
-                        <td>Closed</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-
-        <!-- Location -->
-        <div class="mamadou-toure-office">
-            <h3>Location</h3>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.2150354046053!2d-75.69384642337174!3d45.42516643604179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce05010b10aa09%3A0xadb5eb264eeb2625!2sCF%20Rideau%20Centre!5e0!3m2!1sen!2sca!4v1743624998542!5m2!1sen!2sca"
-                width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+        <h3>Hours of operation</h3>
+        <table border="1" cellpadding="10">
+            <thead>
+                <tr>
+                    <th>Days</th>
+                    <th>Hours</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monday - Friday</td>
+                    <td>9 AM - 6 PM</td>
+                </tr>
+                <tr>
+                    <td>Saturday - Sunday</td>
+                    <td>Closed</td>
+                </tr>
+            </tbody>
+        </table>
     </section>
 
     <!-- Footer -->
     <footer>
         <p>&copy; 2025 Mamadou Toure. All rights reserved.</p>
     </footer>
+
 </body>
 </html>
