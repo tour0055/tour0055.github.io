@@ -1,149 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mamadou Toure</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Three Star Media</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <script src="https://kit.fontawesome.com/eab258384f.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
 
-    <!-- Navigation Bar -->
-    <header>
-        <nav>
-            <div class="mamadou-toure-logo">
-                <img src="./images/logo.png" alt="Mamadou Toure Logo">
-            </div>
-            <ul class="mamadou-toure-nav">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#team">Our Team</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="mamadou-toure-search">
-                <input type="text" placeholder="Search">
-                <button>🔍</button>
-            </div>
-        </nav>
-    </header>
+  <!-- *** HEADER *** -->
+  <header>
+    <div class="logo">
+      <img src="./images/logo.png" alt="Three Star Media Logo" />
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <form>
+        <label for="search">Search</label>
+        <input type="text" placeholder="search" id="search" />
+        <button>
+          <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+    </nav>
+  </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="mamadou-toure-hero">
-        <img src="./images/main-banner.jpg" alt="Modern office space with leather sofas and desks" />
-        <h1>Welcome to Mamadou Toure</h1>
-        <p>We design unique digital experiences for impactful branding.</p>
-        <button>Work With Us</button>
+  <main>
+    <!-- *** HERO BANNER *** -->
+    <section class="banner" id="home">
+      <img src="./images/main-banner.jpg" alt="welcome to star Media" width="250px" />
+      <h1>Welcome to Three Star Media</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+        tincidunt. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Voluptatum explicabo dolores exercitationem eum consequatur dolorem,
+        hic asperiores voluptates natus iste. Dolorem, fugiat. Ducimus
+        mollitia, voluptatem ullam voluptas dolorum expedita ratione?
+      </p>
+      <a href="#">Connect with us <i class="fa-solid fa-caret-right"></i> </a>
+      <div class="overlay"></div>
     </section>
 
-    <!-- About Us Section -->
+    <!-- *** ABOUT US *** -->
     <section id="about">
+      <img src="images/about-us.jpg" alt="About Us" width="250px" />
+      <div>
         <h2>About Us</h2>
-        <img src="./images/about-us.jpg" alt="Shared workspace with ping pong table and dining area" />
-        <p>We are a team of innovators dedicated to bringing creative ideas to life.</p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
+          dolor, sit amet consectetur adipisicing elit. Vel suscipit, ipsam
+          cupiditate quisquam doloribus quibusdam maiores. Explicabo, ipsa
+          dolorum, asperiores nulla omnis ipsum ex, quisquam adipisci
+          consequuntur amet quod distinctio?
+        </p>
+
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit
+          quaerat enim velit! A, perferendis vitae, quos reiciendis ex velit
+          voluptates voluptatum magnam minus atque sapiente. Aut in
+          praesentium quasi odit!
+        </p>
+      </div>
     </section>
 
-    <!-- Services Section -->
+    <!-- *** SERVICES *** -->
     <section id="services">
-        <h2>Our Services</h2>
+      <h2>Our Services</h2>
 
-        <div class="mamadou-toure-service">
-            <img src="./images/digital.jpg" alt="Person holding smartphone while working on laptop" />
-            <h3>Digital Strategy</h3>
-            <p>Helping brands navigate the digital space.</p>
-            <button>Explore</button>
-        </div>
+      <div class="service digital">
+        <img src="images/digital.jpg" alt="Digital Transformation" />
+        <h3>Digital Transformation</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut hic
+          dolorum magnam, cumque praesentium quae quisquam commodi facilis,
+          impedit amet eligendi! Provident, similique. Facilis perferendis
+          blanditiis temporibus fugit. Voluptates, consequuntur. lo
+        </p>
+        <a href="#">Digital Plans <i class="fa-solid fa-caret-right"></i></a>
+      </div>
 
-        <div class="mamadou-toure-service">
-            <img src="./images/marketing.jpg" alt="Laptop showing marketing data and analytics" />
-            <h3>Marketing Solutions</h3>
-            <p>Tailored campaigns for your audience.</p>
-            <button>Discover</button>
-        </div>
+      <div class="service marketing">
+        <img src="images/marketing.jpg" alt="Marketing" />
+        <h3>Marketing</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut hic
+          dolorum magnam, cumque praesentium quae quisquam commodi facilis,
+          impedit amet eligendi! Provident, similique. Facilis perferendis
+          blanditiis temporibus fugit. Voluptates, consequuntur. lo
+        </p>
+        <a href="#">Marketing Plans <i class="fa-solid fa-caret-right"></i></a>
+      </div>
 
-        <div class="mamadou-toure-service">
-            <img src="./images/print.jpg" alt="Colorful newspaper stands on a city street" />
-            <h3>Web Development</h3>
-            <p>Modern and responsive websites.</p>
-            <button>Get Started</button>
-        </div>
+      <div class="service video">
+        <img src="images/video.jpg" alt="Video Production" />
+        <h3>Video Production</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet
+          tempore eligendi, quasi nisi laboriosam aut modi minus ab laudantium
+          nulla animi nostrum in voluptate quisquam quam unde repellendus
+          impedit ipsum! modi minus ab lauda
+        </p>
+        <a href="#">Video Plans <i class="fa-solid fa-caret-right"></i></a>
+      </div>
+
+      <div class="service web">
+        <img src="images/web.jpg" alt="Web Development" />
+        <h3>Web Development</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum
+          similique minus repellendus odio, fugit praesentium ut maiores
+          obcaecati quo voluptates fugiat ipsa incidunt! Molestias, porro nihil
+          totam natus praesentium iusto?
+        </p>
+        <a href="#">Web Plans <i class="fa-solid fa-caret-right"></i></a>
+      </div>
+
+      <div class="service print">
+        <img src="images/print.jpg" alt="Print" />
+        <h3>Print</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
+          molestias minus vel unde dignissimos, veniam itaque eos ratione iste
+          ipsam dolorum officiis consectetur nesciunt, ducimus ut quo
+          excepturi, perspiciatis corporis!
+        </p>
+        <a href="#">Print Plans <i class="fa-solid fa-caret-right"></i></a>
+      </div>
     </section>
 
-    <!-- Mission Section -->
-    <section id="vision">
-        <h2>Our vision</h2>
-        <img src="./images/vision.jpg">
-        
-        <p>We merge creativity with technology to craft memorable brand experiences.</p>
-        <button>Learn More</button>
+    <!-- *** VISION SECTION *** -->
+    <section class="vision">
+      <h2>Our Vision</h2>
+      <img src="./images/vision.jpg" alt="Vision" width="250px" />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet alias
+        provident ea voluptatibus totam dolore quisquam
+      </p>
+      <a href="#">Learn More <i class="fa-solid fa-caret-right"></i></a>
     </section>
 
-    <!-- Team Section -->
+    <!-- *** TEAM SECTION *** -->
     <section id="team">
-        <h2>Meet Our Team</h2>
-        <div class="mamadou-toure-team-member">
-            <img src="./images/john.jpg" alt="Man in striped shirt with graffiti background (John Doe)" />
-            <h3>John Doe</h3>
-            <p>CEO and Co-owner</p>
+      <h2>Our Team</h2>
+
+      <div class="team-member">
+        <img src="images/john.jpg" alt="John Doe" />
+        <div class="jhon">
+          <h3>John Doe</h3>
+          <h4>CEO & Co-founder</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro
+            vitae ex officiis harum ipsum dicta natus inventore accusamus
+            deleniti, eligendi labore magnam perferendis illo voluptates iste
+            corporis nobis. Enim, molestias!
+          </p>
         </div>
-        <div class="mamadou-toure-team-member">
-            <img src="./images/bob.jpg" alt="Man in checkered shirt sitting in front of a white brick wall (Bob Rite)" />
-            <h3>Bob Rite</h3>
-            <p>CFO and Co-owner</p>
+      </div>
+
+      <div class="team-member">
+        <img src="images/bob.jpg" alt="Bob Rite" />
+        <div class="bob">
+          <h3>Bob Rite</h3>
+          <h4>CFO & Co-founder</h4>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam
+            commodi rerum consequatur voluptatum, earum nesciunt exercitationem
+            provident laudantium non, veniam, possimus asperiores nulla sunt
+            accusamus tempora similique voluptates quam debitis!
+          </p>
         </div>
+      </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- *** CONTACT SECTION *** -->
     <section id="contact">
-        <h2>Contact Us</h2>
+      <h2>Contact Us</h2>
 
-        <!-- Send us a message -->
+      <div class="contact-us">
         <h3>Send us a message</h3>
         <form>
-            <label for="name">Full Name</label><br>
-            <input type="text" id="name" name="name"><br><br>
+          <label for="fullname">Full Name</label>
+          <input type="text" id="fullname" required />
 
-            <label for="email">Email</label><br>
-            <input type="email" id="email" name="email"><br><br>
+          <label for="email">Email</label>
+          <input type="email" id="email" required />
 
-            <label for="message">Message</label><br>
-            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+          <label for="message">Message</label>
+          <textarea id="message" rows="4" required></textarea>
 
-            <button type="submit">Send</button>
+          <button type="submit">Send</button>
         </form>
+      </div>
 
-        <!-- Our Office -->
-        <h3>Our Office</h3>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.843048674094!2d144.95592331532106!3d-37.817209979751554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf0727e6e9c4f9c71!2sSouthern%20Cross%20Station!5e0!3m2!1sen!2sau!4v1618881583477!5m2!1sen!2sau"
-            width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy">
-        </iframe>
-
-        <!-- Hours of Operation -->
-        <h3>Hours of operation</h3>
-        <table border="1" cellpadding="10">
-            <thead>
-                <tr>
-                    <th>Days</th>
-                    <th>Hours</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Monday - Friday</td>
-                    <td>9 AM - 6 PM</td>
-                </tr>
-                <tr>
-                    <td>Saturday - Sunday</td>
-                    <td>Closed</td>
-                </tr>
-            </tbody>
+      <div class="hours">
+        <h2>Hours of Operation</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Day</th>
+              <th>Hours</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Monday - Friday</td>
+              <td>9AM - 6PM</td>
+            </tr>
+            <tr>
+              <td>Saturday - Sunday</td>
+              <td>Closed</td>
+            </tr>
+          </tbody>
         </table>
+      </div>
+
+      <div class="map">
+        <h3>Location</h3>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18..."
+          width="600"
+          height="600"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
     </section>
+  </main>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 Mamadou Toure. All rights reserved.</p>
-    </footer>
-
+  <!-- *** FOOTER *** -->
+  <footer>
+    <p>&copy; Copyright Three Star Media, 2025</p>
+    <p>
+      All images are taken from
+      <a class="unsplash" href="https://unsplash.com/">Unsplash</a>
+    </p>
+  </footer>
 </body>
 </html>

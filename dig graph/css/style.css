@@ -1,0 +1,89 @@
+body {
+    font-family: 'Avenir Next', sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.colors {
+    margin-bottom: 40px;
+}
+
+.color-box {
+    display: inline-block;
+    width: 120px;
+    height: 60px;
+    margin: 10px;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.typography h1, .typography h2, .typography h3 {
+    color: rgb(51, 51, 51);
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+.typography h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.typography h2 {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.typography h3 {
+    font-size: 24px;
+    margin-bottom: 6px;
+}
+
+.body-text {
+    font-size: 16px;
+    color: #878787;
+    line-height: 1.6;
+}
+
+.styled-link {
+    font-size: 16px;
+    color: rgb(239, 11, 11);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.styled-link:hover {
+    text-decoration: underline;
+}
+
+.styled-button {
+    background-color: rgb(8, 233, 45);
+    color: white;
+    font-size: 18pt;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.styled-button:hover {
+    background-color: rgb(0, 173, 241);
+}
+
+.styled-list {
+    font-size: 16px;
+    color: #333;
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.styled-list li {
+    margin: 5px 0;
+}
