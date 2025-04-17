@@ -95,7 +95,7 @@
     cursor: pointer;
   }
   
-  /* Main Content Styles */
+  
   main {
     width: 100%;
   }
@@ -118,7 +118,6 @@
   }
   
   /* Banner Section */
-  /* Banner section acting as a full-screen hero */
   .banner {
     position: relative;
     display: flex;
@@ -137,7 +136,7 @@
     height: 100%;
     object-fit: cover; 
     z-index: -2; 
-    
+  }
   /* Transparent black overlay */
   .banner .overlay {
     position: absolute;
@@ -399,7 +398,7 @@
     border: none;
   }
   
-  /* Footer */
+ 
   footer {
     background-color: #222;
     color: #c78c06;
@@ -421,9 +420,9 @@
     margin-left: 5px;
   }
   
-  /* Media Queries for larger screens */
+  
   @media (min-width: 760px) {
-    /* Header */
+    
     header {
       display: flex;
       justify-content: space-evenly;
@@ -438,13 +437,13 @@
     nav {
       background-color: transparent;
       display: flex;
-      justify-content: center; /* centers everything inside the nav */
+      justify-content: center; 
       align-items: center;
       padding: 10px;
     }
     
     nav ul {
-      display: flex; /* makes the li’s go in a row */
+      display: flex; 
       flex-direction: row;
       list-style: none;
       margin: 0;
@@ -482,7 +481,7 @@
       padding: 5px 10px;
       border-radius: 4px 0 0 4px;
       border: none;
-      width: 250px; /* make the input longer here */
+      width: 250px; 
     }
     
     nav form button {
@@ -495,7 +494,7 @@
     }
     
   
-    /* Two-column layouts */
+   
     .banner .overlay {
       position: absolute;
       top: 10;
@@ -503,8 +502,8 @@
       right: 20px;
       width: 97%;
       height: 93%;
-      background-color: rgba(0, 0, 0, 0.6); /* 60% opacity black */
-      z-index: -1; /* Behind text but over image */
+      background-color: rgba(0, 0, 0, 0.6); 
+      z-index: -1; 
       padding-right: 80px;
       padding-left: 80px;
     }
@@ -644,12 +643,12 @@
       right: 20px;
       width: 97%;
       height: 90%;
-      background-color: rgba(0, 0, 0, 0.6); /* 60% opacity black */
-      z-index: -1; /* Behind text but over image */
+      background-color: rgba(0, 0, 0, 0.6); 
+      z-index: -1; 
       padding-right: 80px;
       padding-left: 80px;
     }
-    /* Two-column layouts */
+   
     #about {
       flex-direction: row;
       align-items: center;
